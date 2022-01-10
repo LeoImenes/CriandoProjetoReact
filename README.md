@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<h1>Preparando Ambiente</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Primeiramente verificar se o Node está instalado:</h2>
+<a href="https://nodejs.org/en/" style="color:white; font-size:20px">Link para o <u>NodeJs</u></a>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p style="margin-top:1.5em">Abir uma pasta para ser a <b>Workspace</b>
+    <p>
+        <p>Abrir a pasta com o <b>VS Code</b></p>
+        <ol style="list-style: decimal-leading-zero;">No VSCode:
+            <li>Abrir o terminal "<b>ctrl + shift + '</b> "</li>
+            <li>No terminal, iniciar o Projeto react com <b>npx create-react-app nomeprojeto </b> </li>
+            <li>Pelo terminal, entrar na pasta do projeto com <b>cd nomeprojeto</b> </li>
+            <li>De preferecia, antes de iniciar o projeto no localhost, instale as dependencias que precisará pro projeto</li>
+            <ul>Algumas dependencias <b>(opicional)</b>:
+                <li><b>npm install json-server</b> (cria um backend "Fake", teste de api)</li>
+                <li><b>npm install react-router-dom</b> (para criar rotas de navegação)</li>
+                <li><b>npm install uuid</b> (cria ids como em bancos de dados)</li>
+            </ul>
+            <li>Inicie o projeto com <b>npm start</b></li>
+        </ol>
+        <h1>Limpando o projeto</h1>
+        <h2 style="margin-bottom:1em">Excluir arquivos desnecessarios</h2>
+        <div style="display: flex; justify-content: space-between; border: 1px solid ; margin-bottom:3em ; ">
+            <h2>Antes: </h2>
+            <img src="./AssetsReadme/Antes.PNG" alt="">
+            <h2>Depois:</h2>
+            <img src="./AssetsReadme/Depois.PNG" alt="">
+        </div>
+        <div>
+            <h1>APP.JS</h1>
+            <h2>Deixe o arquivo App.js somente com a função:</h2>
+            <img src="./AssetsReadme/Appjs.PNG" alt="">
+        </div>
+        <div>
+            <h1>index.js</h1>
+            <h2>Apagar a importação reportwebvitals()</h2>
+            <img src="./AssetsReadme/indexjs.PNG" alt="">
+        </div>
+        <h1>Projeto preparado para ser codado ;)</h1>
